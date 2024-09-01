@@ -4,7 +4,7 @@
 
 ![screenshot](/src/img/portfolio_Screenshot.png)
 
-![Demo](/src/img/portfolio_Video.mp4)
+
 
 <!-- [View Live Template](https://reactportfoliotemplate.paytonpierce.dev/) -->
 
