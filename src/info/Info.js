@@ -77,8 +77,9 @@ export const info = {
       "Firebase",
       "Figma",
       "GitHub",
+
     ],
-    exposedTo: ["DevOps", "Kubernetes", "AWS", "Docker", "Selenium"],
+    exposedTo: ["DevOps", "Kubernetes", "Selenium"],
   },
   achive: {
    

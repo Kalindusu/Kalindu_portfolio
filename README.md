@@ -2,9 +2,9 @@
 
 ## a portfolio for developers
 
-![screenshot](https://user-images.githubusercontent.com/18350557/176953627-cd79fe83-0b84-4082-b79e-cc88da28f2e1.png)
+![screenshot](https://drive.google.com/file/d/1-dvWpIMBgJSjMC4VMKU3tPmMmXoZoDp8/view?usp=drive_link)
 
-[View Live Template](https://reactportfoliotemplate.paytonpierce.dev/)
+<!-- [View Live Template](https://reactportfoliotemplate.paytonpierce.dev/) -->
 
 ## features
 
