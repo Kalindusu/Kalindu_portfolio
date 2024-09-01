@@ -2,7 +2,7 @@
 
 ## a portfolio for developers
 
-![screenshot](../Kalindu_Protfolio/Portfolio_Details/portfolio_Screenshot.png)
+![screenshot](/src/img/portfolio_Screenshot.png)
 
 <!-- [View Live Template](https://reactportfoliotemplate.paytonpierce.dev/) -->
 
