@@ -1,8 +1,10 @@
 # React Portfolio, multiple pages with dark mode
 
-## a portfolio for developers
+## Welcome to my portfolio repository! This repository showcases my skills and projects as a passionate full-stack developer and software engineering undergraduate. Here, you'll find a collection of my work, including web applications, mobile apps, and backend systems, all reflecting my commitment to creating visually appealing, user-friendly, and robust solutions.
 
 ![screenshot](/src/img/portfolio_Screenshot.png)
+
+![Demo](/src/img/portfolio_Video.mp4)
 
 <!-- [View Live Template](https://reactportfoliotemplate.paytonpierce.dev/) -->
 
