@@ -19,3 +19,23 @@
     line-height: 1.75;
   }
 }
+
+.styled-list {
+  list-style-type: none; /* Removes default bullets */
+  padding-left: 20px; /* Adds space before bullets */
+}
+
+.styled-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.styled-list li::before {
+  content: '•'; /* Custom bullet */
+  color: #FF6347; /* Change this to your preferred bullet color */
+  font-size: 20px; /* Size of the bullet */
+  position: absolute;
+  left: 0;
+  top: 0;
+}

@@ -63,11 +63,44 @@ export const info = {
   skills: {
     professional: [
       "Languages - (Java , C++ ,Javascript )",
-      "Web Development - ( HTML ,CSS , JavaScript , Tailwind CSS ,React js , bootstrap ,Redux ,Node js , Express js )",
+      "Web Development - ( HTML , CSS , JavaScript , Tailwind CSS , React js , bootstrap , Redux , Node js , Express js )",
       
 
     ],
-    personal: ["DevOps", "Kubernetes", "Selenium"],
+    softskills: [
+      {
+        label: "communication",
+        emoji: "🗣️",
+      },
+      {
+        label: "teamwork",
+        emoji: "🫂",
+      },
+      {
+        label: "leadership",
+        emoji: "👥",
+      },
+      {
+        label: "problem solving",
+        emoji: "🤔",
+      },
+      {
+       label: "Self learning",
+       emoji: "📖",
+      },
+      {
+        label: "adaptability",
+        emoji: "🤝🏻",
+      },
+      {
+        label: "time management",
+        emoji: "🕒",
+      },
+      {
+        label: "innovation & Creative",
+        emoji: "🤖",
+      },
+    ],
   },
   achive: {
    

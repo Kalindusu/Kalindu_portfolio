@@ -24,12 +24,14 @@ export default function About({innerRef}) {
             </p>
             
             <p style={{color: info.baseColor}}> Professional Skills</p>
-            <ul>
-                {info.skills.professional.map((proficiency, index) => <li  key={index}>{proficiency}</li>)}
+            <ul className="styled-list"> 
+                {info.skills.professional.map((proficiency, index) =>  <li  key={index}><span style={{color: info.baseColor}}> .</span> <></>{proficiency}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Personal Skills</p>
             <ul>
-                {info.skills.personal.map((skill, index) => <li key={index}>{skill}</li>)}
+                {info.skills.softskills.map((skill, index) => (
+                    <li key={index}><Box component={'span'} mr={'1rem'}>{skill.emoji}</Box>{skill.label}</li>
+                ))}
             </ul>
         </>;
     }
