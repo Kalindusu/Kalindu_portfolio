@@ -123,6 +123,11 @@ export const info = {
     ],
   },
   hobyskill: {
+
+    work:[
+      "I have six months of work experience as a trainer at People's Bank (Jan.2023 - Jul.2023)"
+
+    ],
     hobbies: [
       {
         label: "reading",
@@ -133,11 +138,11 @@ export const info = {
         emoji: "🚶",
       },
       {
-        label: "movies",
+        label: "coding",
         emoji: "🎥",
       },
       {
-        label: "cooking",
+        label: "Blogging",
         emoji: "🌶",
       },
     ],

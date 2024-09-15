@@ -45,7 +45,7 @@ export default function About({innerRef}) {
             </ul>
             <p style={{color: info.baseColor}}> Certifications</p>
             <ul>
-                {info.achive.certification.map((certify, index) => <li key={index}>{certify}</li>)}
+                {info.achive.certification.map((certify, index) => <li key={index}><span style={{color: info.baseColor}}> ❇️</span> <></>{certify}</li>)}
             </ul>
            
         </>;
