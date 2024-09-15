@@ -53,10 +53,8 @@ export default function About({innerRef}) {
 
     function miscText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-            soft skills & hobbies</p>
-            <p><span style={{color: info.baseColor}}>soft skills & hobbies <span
-                className={Style.green}>(main)</span> $</span> ls</p>
+            <p><span style={{color: info.baseColor}}> $</span> cd
+            work experience & interests</p>
                  <p style={{color: info.baseColor}}> Work Experience </p>
             <ul>
                 {info.hobyskill.work.map((work, index) => (
@@ -73,12 +71,29 @@ export default function About({innerRef}) {
         </>;
     }
 
+    function tools() {
+        return <>
+            <p><span style={{color: info.baseColor}}> $</span> cd education & certifications  
+            </p>
+                 <p style={{color: info.baseColor}}> Education</p>
+            <ul >
+                {info.achive.education.map((edu, index) => <li key={index}><span style={{color: info.baseColor}}> ❇️</span> <></>{edu}</li>)}
+            </ul>
+            <p style={{color: info.baseColor}}> Certifications</p>
+            <ul>
+                {info.achive.certification.map((certify, index) => <li key={index}><span style={{color: info.baseColor}}> ❇️</span> <></>{certify}</li>)}
+            </ul>
+           
+        </>;
+    }
+
     return (
         <Box ref={innerRef} display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'} id={'about'}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={courses()}/>
             <Terminal text={miscText()}/>
+            <Terminal text={tools()}/>
         </Box>
     )
 }
