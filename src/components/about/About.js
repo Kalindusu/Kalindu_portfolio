@@ -39,9 +39,9 @@ export default function About({innerRef}) {
         return <>
             <p><span style={{color: info.baseColor}}> $</span> cd education & certifications  
             </p>
-                 <p style={{color: info.baseColor}}> Experience</p>
+                 <p style={{color: info.baseColor}}> Education</p>
             <ul >
-                {info.achive.education.map((edu, index) => <li key={index}>{edu}</li>)}
+                {info.achive.education.map((edu, index) => <li key={index}><span style={{color: info.baseColor}}> ❇️</span> <></>{edu}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Certifications</p>
             <ul>
