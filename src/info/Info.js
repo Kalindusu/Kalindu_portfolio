@@ -1,5 +1,5 @@
 import self from "../img/self.png";
-import mock1 from "../img/mock1.png";
+import mock1 from "../img/mock2.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
 import mock4 from "../img/mock4.png";
@@ -174,34 +174,34 @@ export const info = {
   portfolio: [
     
     {
-      title: "Project 1",
+      title: "PitCrew Mobile App (Group)",
       live: "https://paytonpierce.dev", 
-      source: "https://github.com/paytonjewell", 
+      source: "https://github.com/ChethanaWijesinghe10/PitCrew.git", 
       image: mock1,
     },
     {
-      title: "Project 2",
+      title: "FoodOnWay web App",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      source: "https://github.com/Kalindusu/Foodie-Fusion.git",
       image: mock2,
     },
     {
-      title: "Project 3",
+      title: "CeylonTours E-Booking Mobile App",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock3,
+      source: "https://github.com/Kalindusu/CeylonTours-E-booking.git",
+      image: mock2,
     },
     {
-      title: "Project 4",
+      title: "Student Management System",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock4,
+      source: "https://github.com/Kalindusu/Fullstack_Springboot-React.git",
+      image: mock2,
     },
     {
-      title: "Project 5",
+      title: "Letter Updating System (Group) ",
       live: "https://paytonpierce.dev",
       source: "https://github.com/paytonjewell",
-      image: mock5,
+      image: mock2,
     },
   ],
 };
