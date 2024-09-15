@@ -130,39 +130,44 @@ export const info = {
     ],
     hobbies: [
       {
-        label: "reading",
+        label: "Reading",
         emoji: "📖",
       },
       {
-        label: "traveling",
+        label: "Traveling",
         emoji: "🚶",
       },
       {
-        label: "coding",
+        label: "Coding",
         emoji: "🖥️",
       },
       {
         label: "Blogging",
-        emoji: "🌶",
+        emoji: "🌐",
       },
+      {
+        label: "Political",
+        emoji: "🏛️",
+      }
     ],
     
   },
   tools: {
    
     tool: [
-      "BSc (Hons) in Computing and Information Systems at Sabaragamuwa University of Sri Lanka ( 2021 - Present )",
-      "GCE A/L - 2020 ( Physical Science Stream )",
-      "GCE O/L - 2016"
+      "Visual Studio Code",
+      "IntelliJ ID",
+      "Android Studio",
+      "Github",
+      "Postman",
+      "Figma",
+      "MySql Workbench",
 
     ],
     language: [
-      "React Advance by Meta",
-      "React Basic by Meta",
-      "Front-End Web Development by University of Moratuwa",
-      "HTML , CSS and Javascript by Johns Hopkins University",
-      "Web Design for Beginners by University of Moratuwa",
-      "Introduction to Java by Sololearn",
+      "Sinhala",
+      "English",
+      
     ],
   },
 
