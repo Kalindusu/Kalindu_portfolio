@@ -61,7 +61,7 @@ export const info = {
   ],
   bio: "Hello! I'm Kalindu, a 3rd-year undergraduate at Sabaragamuwa University of Sri Lanka (SUSL). I'm passionate about full-stack development, where I enjoy crafting visually appealing and user-friendly web experiences while building robust and efficient backends. Whether it's designing a responsive frontend or engineering a scalable backend, I'm dedicated to delivering seamless and impactful solutions. Let's build something amazing together!",
   skills: {
-    proficientWith: [
+    professional: [
       "javascript",
       "HTML5",
       "CSS3",
@@ -79,7 +79,7 @@ export const info = {
       "GitHub",
 
     ],
-    exposedTo: ["DevOps", "Kubernetes", "Selenium"],
+    personal: ["DevOps", "Kubernetes", "Selenium"],
   },
   achive: {
    
