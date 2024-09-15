@@ -39,8 +39,6 @@ export default function About({innerRef}) {
         return <>
             <p><span style={{color: info.baseColor}}> $</span> cd education & certifications  
             </p>
-            <p><span style={{color: info.baseColor}}>work experiences & courses <span
-                className={Style.green}>(main)</span> $</span> ls</p>
                  <p style={{color: info.baseColor}}> Experience</p>
             <ul >
                 {info.achive.education.map((edu, index) => <li key={index}>{edu}</li>)}
