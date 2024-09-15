@@ -108,7 +108,10 @@ export const info = {
   achive: {
    
     education: [
-      "I have six months of work experience as a trainer at People's Bank (Jan.2023 - Jul.2023)",
+      "BSc (Hons) in Computing and Information Systems at Sabaragamuwa University of Sri Lanka ( 2021 - Present )",
+      "GCE A/L - 2020 ( Physical Science Stream )",
+      "GCE O/L - 2016"
+
     ],
     certification: [
       "React Advance by Meta",
