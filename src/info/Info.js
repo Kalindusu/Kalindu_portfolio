@@ -13,7 +13,7 @@ export const info = {
   firstName: "Kalindu",
   lastName: "Sudaraka",
   initials: "KS",
-  position: "a Fullstack Developer | UI/UX Designer | Blogger",
+  position: "a Software Engineer | Blogger",
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
@@ -29,7 +29,7 @@ export const info = {
 
     {
       emoji: "🌎",
-      text: "based in Sri Lanka",
+      text: "based in Colombo, Sri Lanka",
     },
   ],
   socials: [
