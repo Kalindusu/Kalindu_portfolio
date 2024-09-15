@@ -72,35 +72,35 @@ export const info = {
     ],
     softskills: [
       {
-        label: "communication",
+        label: "Communication",
         emoji: "🗣️",
       },
       {
-        label: "teamwork",
+        label: "Teamwork",
         emoji: "🫂",
       },
       {
-        label: "leadership",
+        label: "Leadership",
         emoji: "👥",
       },
       {
-        label: "problem solving",
+        label: "Problem Solving",
         emoji: "🤔",
       },
       {
-       label: "Self learning",
+       label: "Self Learning",
        emoji: "📖",
       },
       {
-        label: "adaptability",
+        label: "Adaptability",
         emoji: "🤝🏻",
       },
       {
-        label: "time management",
+        label: "Time Management",
         emoji: "🕒",
       },
       {
-        label: "innovation & Creative",
+        label: "Innovation & Creative",
         emoji: "🤖",
       },
     ],
