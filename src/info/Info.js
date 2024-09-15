@@ -62,21 +62,9 @@ export const info = {
   bio: "Hello! I'm Kalindu, a 3rd-year undergraduate at Sabaragamuwa University of Sri Lanka (SUSL). I'm passionate about full-stack development, where I enjoy crafting visually appealing and user-friendly web experiences while building robust and efficient backends. Whether it's designing a responsive frontend or engineering a scalable backend, I'm dedicated to delivering seamless and impactful solutions. Let's build something amazing together!",
   skills: {
     professional: [
-      "javascript",
-      "HTML5",
-      "CSS3",
-      "Tailwind CSS",
-      "React JS",
-      "React Native",
-      "Flutter",
-      "Node JS",
-      "Express JS",
-      "Spring Boot",
-      "MongoDB",
-      "MySQL",
-      "Firebase",
-      "Figma",
-      "GitHub",
+      "Languages - (Java , C++ ,Javascript )",
+      "Web Development - ( HTML ,CSS , JavaScript , Tailwind CSS ,React js , bootstrap ,Redux ,Node js , Express js )",
+      
 
     ],
     personal: ["DevOps", "Kubernetes", "Selenium"],

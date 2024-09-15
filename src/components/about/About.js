@@ -10,10 +10,9 @@ export default function About({innerRef}) {
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
+            <p><span style={{color: info.baseColor}}> $</span> cat
                 about{firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
-                className={Style.green}>(main)</span> $ </span>
+            <p>
                 {info.bio}
             </p>
         </>;
@@ -21,16 +20,15 @@ export default function About({innerRef}) {
 
     function skillsText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills
+            <p><span style={{color: info.baseColor}}> $</span> cd skills
             </p>
-            <p><span style={{color: info.baseColor}}>skills <span
-                className={Style.green}>(main)</span> $</span> ls</p>
+            
             <p style={{color: info.baseColor}}> Professional Skills</p>
-            <ul className={Style.skills}>
-                {info.skills.professional.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+            <ul>
+                {info.skills.professional.map((proficiency, index) => <li  key={index}>{proficiency}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Personal Skills</p>
-            <ul className={Style.skills}>
+            <ul>
                 {info.skills.personal.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
         </>;
