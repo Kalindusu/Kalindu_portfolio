@@ -73,13 +73,13 @@ export default function About({innerRef}) {
 
     function tools() {
         return <>
-            <p><span style={{color: info.baseColor}}> $</span> cd education & certifications  
+            <p><span style={{color: info.baseColor}}> $</span> cd tools & languages  
             </p>
-                 <p style={{color: info.baseColor}}> Education</p>
+                 <p style={{color: info.baseColor}}> Tools</p>
             <ul >
                 {info.achive.education.map((edu, index) => <li key={index}><span style={{color: info.baseColor}}> ❇️</span> <></>{edu}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Certifications</p>
+            <p style={{color: info.baseColor}}> Languages</p>
             <ul>
                 {info.achive.certification.map((certify, index) => <li key={index}><span style={{color: info.baseColor}}> ❇️</span> <></>{certify}</li>)}
             </ul>
