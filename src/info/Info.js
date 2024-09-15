@@ -139,7 +139,7 @@ export const info = {
       },
       {
         label: "coding",
-        emoji: "🎥",
+        emoji: "🖥️",
       },
       {
         label: "Blogging",
