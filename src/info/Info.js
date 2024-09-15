@@ -125,7 +125,7 @@ export const info = {
   hobyskill: {
 
     work:[
-      "I have six months of work experience as a trainer at People's Bank (Jan.2023 - Jul.2023)"
+      "I have six months of work experience as a trainer at People's Bank (Jan.2023 - Jul.2023)",
 
     ],
     hobbies: [

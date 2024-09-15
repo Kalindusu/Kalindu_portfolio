@@ -57,8 +57,14 @@ export default function About({innerRef}) {
             soft skills & hobbies</p>
             <p><span style={{color: info.baseColor}}>soft skills & hobbies <span
                 className={Style.green}>(main)</span> $</span> ls</p>
+                 <p style={{color: info.baseColor}}> Work Experience </p>
+            <ul>
+                {info.hobyskill.work.map((work, index) => (
+                    <li key={index}><span style={{color: info.baseColor}}> ❇️</span> <></>{work}</li>
+                ))}
+            </ul>
                   
-                 <p style={{color: info.baseColor}}> Hobbies</p>
+                 <p style={{color: info.baseColor}}> Interests</p>
             <ul>
                 {info.hobyskill.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
