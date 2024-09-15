@@ -25,7 +25,7 @@ export default function About({innerRef}) {
             
             <p style={{color: info.baseColor}}> Professional Skills</p>
             <ul className="styled-list"> 
-                {info.skills.professional.map((proficiency, index) =>  <li  key={index}><span style={{color: info.baseColor}}> .</span> <></>{proficiency}</li>)}
+                {info.skills.professional.map((proficiency, index) =>  <li  key={index}><span style={{color: info.baseColor}}> ❇️</span> <></>{proficiency}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Personal Skills</p>
             <ul>
@@ -37,13 +37,13 @@ export default function About({innerRef}) {
     }
     function courses() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd work experiences & courses  
+            <p><span style={{color: info.baseColor}}> $</span> cd education & certifications  
             </p>
             <p><span style={{color: info.baseColor}}>work experiences & courses <span
                 className={Style.green}>(main)</span> $</span> ls</p>
                  <p style={{color: info.baseColor}}> Experience</p>
             <ul >
-                {info.achive.work.map((work, index) => <li key={index}>{work}</li>)}
+                {info.achive.education.map((edu, index) => <li key={index}>{edu}</li>)}
             </ul>
             <p style={{color: info.baseColor}}> Certifications</p>
             <ul>
@@ -59,12 +59,7 @@ export default function About({innerRef}) {
             soft skills & hobbies</p>
             <p><span style={{color: info.baseColor}}>soft skills & hobbies <span
                 className={Style.green}>(main)</span> $</span> ls</p>
-                  <p style={{color: info.baseColor}}> Soft Skills</p>
-            <ul>
-                {info.hobyskill.skills.map((skill, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{skill.emoji}</Box>{skill.label}</li>
-                ))}
-            </ul>
+                  
                  <p style={{color: info.baseColor}}> Hobbies</p>
             <ul>
                 {info.hobyskill.hobbies.map((hobby, index) => (

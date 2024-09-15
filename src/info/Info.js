@@ -64,8 +64,11 @@ export const info = {
     professional: [
       "Languages - (Java , C++ ,Javascript )",
       "Web Development - ( HTML , CSS , JavaScript , Tailwind CSS , React js , bootstrap , Redux , Node js , Express js )",
-      
-
+      "App Development - ( React Native )",
+      "Database- ( MySql , Mongodb )",
+      "Framework- ( Spring Boot )",
+      "QA Tools- ( Selenium )",
+      "Blogging- ( Medium )",
     ],
     softskills: [
       {
@@ -104,7 +107,7 @@ export const info = {
   },
   achive: {
    
-    work: [
+    education: [
       "I have six months of work experience as a trainer at People's Bank (Jan.2023 - Jul.2023)",
     ],
     certification: [
@@ -135,36 +138,11 @@ export const info = {
         emoji: "🌶",
       },
     ],
-    skills: [
-      {
-        label: "communication",
-        emoji: "🗣️",
-      },
-      {
-        label: "teamwork",
-        emoji: "🫂",
-      },
-      {
-        label: "problem solving",
-        emoji: "🤔",
-      },
-      {
-        label: "adaptability",
-        emoji: "🤝🏻",
-      },
-      {
-        label: "time management",
-        emoji: "🕒",
-      },
-      {
-        label: "leadership",
-        emoji: "👥",
-      },
-    ],
+    
   },
 
   portfolio: [
-    // This is where your portfolio projects will be detailed
+    
     {
       title: "Project 1",
       live: "https://paytonpierce.dev", 
