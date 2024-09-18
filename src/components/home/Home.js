@@ -12,7 +12,7 @@ import { info } from "../../info/Info";
 export default function Home({ innerRef }) {
 
    const handleDownloadResume = () => {
-      const resumeUrl = 'https://drive.google.com/file/d/1Fgmwjw09rI5RZjIYguddNba77uWunnO7/view?usp=drive_link'; // Update with the correct path
+      const resumeUrl = 'https://drive.google.com/file/d/1iYW7Xt402JuSj1L7iWOgVMw3W-LKaqR0/view?usp=drive_link'; // Update with the correct path
       const link = document.createElement('a');
       link.href = resumeUrl;
       link.download = 'Kalindu_CV.pdf';

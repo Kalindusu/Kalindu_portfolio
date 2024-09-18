@@ -1,9 +1,10 @@
 import self from "../img/self.png";
-import mock1 from "../img/mock2.png";
-import mock2 from "../img/mock2.png";
-import mock3 from "../img/mock3.png";
-import mock4 from "../img/mock4.png";
-import mock5 from "../img/mock5.png";
+import mock1 from "../img/mock1.jpg";
+import mock2 from "../img/mock2.jpg";
+import mock3 from "../img/mock3.jpg";
+import mock4 from "../img/mock4.jpg";
+import mock5 from "../img/mock5.jpg";
+import mock6 from "../img/mock6.jpg"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -174,7 +175,7 @@ export const info = {
   portfolio: [
     
     {
-      title: "PitCrew Mobile App (Group)",
+      title: "PitCrew Mobile App Group Project",
       live: "https://paytonpierce.dev", 
       source: "https://github.com/ChethanaWijesinghe10/PitCrew.git", 
       image: mock1,
@@ -189,19 +190,25 @@ export const info = {
       title: "CeylonTours E-Booking Mobile App",
       live: "https://paytonpierce.dev",
       source: "https://github.com/Kalindusu/CeylonTours-E-booking.git",
-      image: mock2,
+      image: mock3,
     },
     {
-      title: "Student Management System",
+      title: "Hotel Management & Booking System (Ongoing)",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/Kalindusu/Fullstack_Springboot-React.git",
-      image: mock2,
+      source: "https://github.com/Kalindusu/Hotel_Management_System.git",
+      image: mock4,
     },
     {
-      title: "Letter Updating System (Group) ",
+      title: "Letter Updating System Group Project (Ongoing) ",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock2,
+      source: "https://github.com/Nipuni102/DispatchDesk---Letter-Management-System.git",
+      image: mock5,
     },
+    {
+      title: "Chatbot ",
+      live: "https://paytonpierce.dev",
+      source: "https://github.com/Kalindusu/ChatBot.git",
+      image: mock6,
+    }
   ],
 };
